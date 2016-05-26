@@ -1,0 +1,13 @@
+{
+  "name": "hapi-auth-jwt2",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/dwyl/hapi-auth-jwt2",
+  "version": "",
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
+  },
+  "ambientDevDependencies": {
+    "hapi": "registry:dt/hapi#13.0.0+20160521152637",
+    "node": "registry:dt/node#4.0.0+20160319033040"
+  }
+}
