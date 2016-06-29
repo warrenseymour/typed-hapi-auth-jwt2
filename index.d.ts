@@ -46,22 +46,22 @@ declare namespace HapiAuthJWT2 {
       /**
        * Ignore expired tokens
        */
-      ignoreExpiration: boolean;
+      ignoreExpiration?: boolean;
 
       /**
        * Do not enforce token audience
        */
-      audience: boolean;
+      audience?: boolean;
 
       /**
        * Do not require the issuer to be valid
        */
-      issuer: boolean;
+      issuer?: boolean;
 
       /**
        * List of allowed algorithms
        */
-      algoriths: string[];
+      algorithms?: string[];
     }
 
     /**
